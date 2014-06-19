@@ -24,7 +24,5 @@ var AppModel = Backbone.Model.extend({
       this.set('currentSong', this.get('songQueue').at(0));
     }, this);
 
-    // listen for an add event in the songQueue collection
-      //  invoke the playfirst method
   }
 });
